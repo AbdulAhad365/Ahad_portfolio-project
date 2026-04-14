@@ -1,0 +1,84 @@
+* {
+  //   margin: 0;
+  //   padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: "HelveticaNowDisplay-Black"; /* your custom name */
+  src: url("./fonts/helvetica-now-display/HelveticaNowDisplay-Black.ttf");
+}
+
+@font-face {
+  font-family: "HelveticaNowDisplay-ThinIta"; /* your custom name */
+  src: url("./fonts/helvetica-now-display/HelveticaNowDisplay-Medium.ttf");
+}
+@font-face {
+  font-family: "thired"; /* your custom name */
+  src: url("./fonts/helvetica-now-display/HelveticaNowDisplay-MedIta.eot");
+}
+@font-face {
+  font-family: "ibm"; /* your custom name */
+  src: url("./fonts/ibm/narrow.ttf");
+}
+
+
+body {
+  main {
+    div {
+      h3 {
+        font-family: "HelveticaNowDisplay-ThinIta";
+      }
+      nav {
+        a:hover {
+          font-size: large;
+          font-weight: bold;
+          opacity: 90;
+        }
+      }
+    }
+    section {
+      .left {
+        h1 {
+          font-family: "thired";
+          // color: red;
+        }
+        
+      }
+    }
+
+    // another section
+    .skills{
+      .overlaytext{
+
+        div{
+          img{
+            height: 50px;
+            width: 50px;
+            border-radius: 20px;
+          }
+        }
+      }
+    }
+
+    // anotehr section
+    .work{
+      .workshowcase{
+        h1{
+          font-family: 'HelveticaNowDisplay-ThinIta';
+        }
+        div{
+          .year{
+            font-family: 'ibm';
+          }
+        }
+      }
+    }
+  }
+}
